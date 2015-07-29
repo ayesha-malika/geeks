@@ -81,6 +81,7 @@ public class Node
 		{
 			System.out.println(temp.value);
 			temp=temp.next;
+			System.out.println("New modifi");
 		}
 	}
 	public static void main(String[] args)
