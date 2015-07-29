@@ -19,24 +19,12 @@ public class Node
 			head=test;	//head now contains address of test
 		else
 		{
-			test.next=head;
-			head=test;
+			test.next=head;	
+			head=test;	
 		}
 		
 	}
-//	public  void insertAtHead(int x){
-//		Node test = new Node(); // here test is a object because of new
-//		test.value = x;
-//
-//		if(head==null){
-//			head = test;  // head now contains the address of test
-//		}else{ 
-//			test.next = head;
-//			head = test;
-//		}
-//		
-//	}
-//	
+
 	
 	public void insertAtLast(int x)
 	{
@@ -55,23 +43,6 @@ public class Node
 			temp.next=test;
 		}
 	}
-//	public void insertAtLast(int x){
-//	
-//	Node test = new Node(); // here test is a object because of new
-//	test.value = x;
-//	
-//	if(head==null){
-//		head = test;  // head now contains the address of test
-//	}else{ // when list is not emptly
-//		Node tmp = head;
-//		while(tmp.next!=null)
-//		{
-//			tmp = tmp.next;
-//		}
-//		
-//		tmp.next = test;
-//	}
-//}
 	
 	
 	public void printAll()
@@ -81,7 +52,7 @@ public class Node
 		{
 			System.out.println(temp.value);
 			temp=temp.next;
-			System.out.println("New modifi");
+
 		}
 	}
 	public static void main(String[] args)
@@ -98,88 +69,3 @@ public class Node
 
 
 	
-//	package Ayesha;
-//
-//	public class Node {
-//		public int value;
-//		public Node next;
-//
-//		Node head = null;
-//		
-//		public Node(){
-//			value = 0;
-//			next = null;
-//			
-//		}
-//		
-//		public void insertAtLast(int x){
-//			
-//			Node test = new Node(); // here test is a object because of new
-//			test.value = x;
-//			
-//			if(head==null){
-//				head = test;  // head now contains the address of test
-//			}else{ // when list is not emptly
-//				Node tmp = head;
-//				while(tmp.next!=null)
-//				{
-//					tmp = tmp.next;
-//				}
-//				
-//				tmp.next = test;
-//			}
-//		}
-//		
-//		public  void insertAtHead(int x){
-//			Node test = new Node(); // here test is a object because of new
-//			test.value = x;
-//
-//			if(head==null){
-//				head = test;  // head now contains the address of test
-//			}else{ 
-//				test.next = head;
-//				head = test;
-//			}
-//			
-//		}
-//		
-//		public void printList(){
-//			
-//			Node tmp = head;
-//			while(tmp!=null){
-//				System.out.print(tmp.value+",");
-//				tmp = tmp.next;
-//			}
-//		}
-//		
-//		
-//		
-//		public static void main(String[] args){
-//			
-//			Node x = new Node();
-//			x.insertAtLast(10);
-//			x.insertAtLast(20);
-//			
-//			x.printList();
-//			
-//			System.out.println();
-//			
-//			Node y = new Node();
-//			y.insertAtHead(25);
-//			y.insertAtHead(50);
-//			y.insertAtHead(75);
-//			
-//			y.printList();
-//			
-//		}
-//		
-//		
-//	}
-//
-//	
-//	
-//	
-//	
-	
-	
-
